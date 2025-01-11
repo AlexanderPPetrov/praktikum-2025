@@ -163,3 +163,48 @@ console.log(window.tralala)
 console.log(window)
 
 
+
+const tralala = {
+    asd: 1, 
+    bbfg: 2,
+}
+
+
+const { asd } = tralala
+const asd2 = tralala.asd
+const asd3 = tralala["asd"]
+
+console.log(asd)
+
+
+const tralala2 = [1,2,3,4]
+
+const [_,__,thirdElement] = tralala2
+
+const thirdElement2 = tralala2[2]
+
+
+console.log(thirdElement)
+
+
+
+function exampleFunction() {
+    return [() => {},() => {}]
+}
+
+const [functionName, functionName2] = exampleFunction()
+
+functionName()
+
+
+
+
+
+
+
+
+
+
+
+
+
